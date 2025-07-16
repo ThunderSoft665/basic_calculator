@@ -18,6 +18,8 @@ print(''' **********
 2. Substraction
 3. Multiplication
 4. Division
+5. Exponential
+6. Floor Division
 **********''')
 
 
@@ -55,9 +57,9 @@ print("Enter two numbers to divide")
 print("*********")
 first_number = float(input("first_number:\n>>> "))   #prompt the user to enter first number and store it.
 second_number = float(input("second_number:\n>>> ")) #prompt the user to enter second number and store it.
-div = first_number // second_number
+div = first_number / second_number
 #print(div) 
-print(f"{first_number} // {second_number} = {div:.2f}")
+print(f"{first_number} / {second_number} = {div:.2f}")
 
 
 
@@ -69,6 +71,24 @@ second_number = float(input("second_number:\n>>> ")) #prompt the user to enter s
 exp = first_number ** second_number
 #print(sum) 
 print(f"{first_number} ** {second_number} = {exp:.2f}")
+
+
+
+print("**********")
+print("Enter two numbers to floor division")
+print("*********")
+first_number = float(input("first_number:\n>>> "))   #prompt the user to enter first number and store it.
+second_number = float(input("second_number:\n>>> ")) #prompt the user to enter second number and store it.
+floor_div = first_number // second_number
+#print(floor_div) 
+print(f"{first_number} // {second_number} = {floor_div:.2f}")
+  
+
+
+
+
+
+
 
 
 
